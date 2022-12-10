@@ -3,10 +3,10 @@ package seminar1;
 public class task2 {
     public static void main(String[] args) {
         int n = task1.input_int("Введите число n: ");
-        int summ = 0;
+        int mult = 1;
         for (int i = 1; i <= n; i++) {
-            summ += i; 
+            mult *= i; 
         }
-        System.out.println("Произведение чисел от 1 до "+ n +" равно: " + summ);
+        System.out.println("Произведение чисел от 1 до "+ n +" равно: " + mult);
     }
 }

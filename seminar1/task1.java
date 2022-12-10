@@ -12,9 +12,7 @@ public class task1 {
     public static int input_int(String text){
         System.out.print(text);
         Scanner scanner = new Scanner(System.in);
-        String nstring = scanner.nextLine();
-
-        int value = Integer.parseInt(nstring);
+        int value = scanner.nextInt();
         return value;
     }
 }
