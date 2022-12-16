@@ -14,7 +14,7 @@ public class task4 {
         String operstring = scanner.nextLine();
         char operchar = operstring.charAt(0);
         System.out.println("Ответ: " + calc(num1, num2, operchar)); 
-
+        scanner.close();
     }
     public static double calc(int a, int b, char oper){
         if (oper == '-') {
@@ -37,4 +37,5 @@ public class task4 {
         }
         return 0;
     }
+    
 }

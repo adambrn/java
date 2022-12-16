@@ -13,6 +13,7 @@ public class task1 {
         System.out.print(text);
         Scanner scanner = new Scanner(System.in);
         int value = scanner.nextInt();
+        scanner.close();
         return value;
     }
 }
